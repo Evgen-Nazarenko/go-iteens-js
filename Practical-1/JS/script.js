@@ -45,7 +45,7 @@ const splice = styles.splice(1, 1, "Класика");
 console.log(styles);
 
 styles.shift("Джаз");
-console.log(styles);
+console.log();
 
 styles.unshift("Реп", "Реггі");
 console.log(styles);

@@ -2,7 +2,7 @@
 console.log("============Завдання 1===========");
 
 const hello1 = function () {
-  console.log("Привіт, Java Script!");
+  return "Привіт JavaScript";
 };
 
 hello1();
@@ -40,13 +40,13 @@ console.log("============Завдання 5===========");
 // console.log(myAverageScore([77, 82, 60, 58]));
 // console.log(myAverageScore([93, 99, 93, 96]));
 
-const marks = [45, 63, 85, 70];
+const marks = [0, 100, 100, 100];
 
 //Збір аргументів
-const myAverageScore = function (...marks) {
+const myAverageScore = function (marks) {
   let totalMarks = 0;
   let lastMark;
-  for (const total of arguments) {
+  for (const total of marks) {
     totalMarks += total;
   }
 
@@ -63,4 +63,4 @@ const myAverageScore = function (...marks) {
   }
 };
 
-myAverageScore(...marks);
+myAverageScore(marks);
