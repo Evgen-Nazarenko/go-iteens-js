@@ -9,8 +9,8 @@ hello1();
 
 console.log("============Завдання 2============");
 
-function hello2(name = prompt('Введіть Ваше ім"я, будь ласка.')) {
-  console.log(`Привіт, (${name})`);
+function hello2() {
+  console.log("Привіт: John");
 }
 
 hello2();
