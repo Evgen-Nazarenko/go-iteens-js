@@ -9,8 +9,8 @@ hello1();
 
 console.log("============Завдання 2============");
 
-function hello2() {
-  console.log("Привіт: John");
+function hello2(name = "john") {
+  console.log(name);
 }
 
 hello2();
