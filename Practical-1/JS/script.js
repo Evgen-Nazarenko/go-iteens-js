@@ -25,7 +25,7 @@ for (const arr of Arr2) {
   console.log(typeof arr);
 }
 
-//4
+///4
 console.log("--------------------  4  --------------------");
 
 const message = "Welcome to Ukraine!";
