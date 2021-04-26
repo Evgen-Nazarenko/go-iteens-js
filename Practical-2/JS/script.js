@@ -13,7 +13,7 @@ function hello2(name) {
   console.log("Привіт:", name);
 }
 
-hello2("John");
+hello2("Привіт: John");
 
 console.log("============Завдання 3===========");
 
