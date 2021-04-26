@@ -9,11 +9,11 @@ hello1();
 
 console.log("============Завдання 2============");
 
-function hello2(name = "john") {
-  console.log(name);
+function hello2(name) {
+  console.log("Привіт:", name);
 }
 
-hello2();
+hello2("John");
 
 console.log("============Завдання 3===========");
 

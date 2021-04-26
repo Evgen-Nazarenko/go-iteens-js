@@ -22,6 +22,7 @@ console.log("-------------------  3  --------------------");
 
 for (const arr of Arr2) {
   console.log(arr);
+  console.log(typeof arr);
 }
 
 //4
@@ -29,9 +30,12 @@ console.log("--------------------  4  --------------------");
 
 const message = "Welcome to Ukraine!";
 
-console.log(message.split(""));
-
+const message1 = message.split("");
+console.log(message1);
 console.log(message.indexOf("l"));
+
+const message2 = message1.join("");
+console.log(message2);
 
 //5
 console.log("------------------------  5  -----------------------");
@@ -44,8 +48,7 @@ console.log(styles);
 const splice = styles.splice(1, 1, "Класика");
 console.log(styles);
 
-styles.shift("Джаз");
-console.log();
+console.log(styles.shift());
 
 styles.unshift("Реп", "Реггі");
 console.log(styles);
